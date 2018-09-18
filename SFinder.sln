@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{FBC0CA61-E6B5-458B-A8A7-BD527CECD35E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentation", "Apresentation", "{3DE5FDCA-2DB1-4373-913B-79F5FD0A37D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{981A84DE-B312-4776-9116-E917AC03D17B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{2C304902-BF78-4923-A04B-B10317D0933B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{25E9C853-31DC-487B-9398-54772FC1E779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFinder.Domain.Core", "SFinder.Domain.Core\SFinder.Domain.Core.csproj", "{7C7A2A78-87F8-4268-8B69-DA1492E0407A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoFind", "PhotoFind\PhotoFind.csproj", "{84EB2AC0-48A0-4569-984D-827EE1319EB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C7A2A78-87F8-4268-8B69-DA1492E0407A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7A2A78-87F8-4268-8B69-DA1492E0407A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7A2A78-87F8-4268-8B69-DA1492E0407A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7A2A78-87F8-4268-8B69-DA1492E0407A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EB2AC0-48A0-4569-984D-827EE1319EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EB2AC0-48A0-4569-984D-827EE1319EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EB2AC0-48A0-4569-984D-827EE1319EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EB2AC0-48A0-4569-984D-827EE1319EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C7A2A78-87F8-4268-8B69-DA1492E0407A} = {981A84DE-B312-4776-9116-E917AC03D17B}
+		{84EB2AC0-48A0-4569-984D-827EE1319EB1} = {981A84DE-B312-4776-9116-E917AC03D17B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2119ADE-5F61-43A7-B4B6-CAA6121803E6}
+	EndGlobalSection
+EndGlobal
